@@ -236,7 +236,7 @@ public Page<Student> getStudentsByName(String name, int page, int size) {
 ```
 
 - `PageRequest.of(page, size)`: Specifies page number and size.
-- `Sort.by("field指標): Defines sorting order.
+- `Sort.by("field"): Defines sorting order.
 
 ## 🔗 Entity Relationships
 Define relationships like `@ManyToOne` or `@OneToMany`:
